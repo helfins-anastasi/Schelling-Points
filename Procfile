@@ -1,1 +1,1 @@
-web: gunicorn about.wsgi --log-file -
+web: gunicorn schelling.wsgi --log-file -

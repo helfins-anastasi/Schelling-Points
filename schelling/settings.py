@@ -1,5 +1,5 @@
 """
-Django settings for project ABOUT
+Django settings for Schelling points site
 From https://github.com/heroku/heroku-django-template
 
 For more information on this file, see
@@ -37,8 +37,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'hello',
-    'todo'
+    'scenario'
 )
 
 MIDDLEWARE_CLASSES = (
@@ -52,7 +51,7 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.security.SecurityMiddleware',
 )
 
-ROOT_URLCONF = 'about.urls'
+ROOT_URLCONF = 'schelling.urls'
 
 TEMPLATES = [
     {
@@ -71,7 +70,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'about.wsgi.application'
+WSGI_APPLICATION = 'schelling.wsgi.application'
 
 
 # Database
@@ -136,4 +135,3 @@ STATICFILES_DIRS = (
 # Simplified static file serving.
 # https://warehouse.python.org/project/whitenoise/
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
-

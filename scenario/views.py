@@ -6,5 +6,5 @@ from django.shortcuts import render
 
 
 # Create your views here.
-def todo_list(request):
+def scenario(request):
     return render(request, 'scenario.html')
